@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="card mt-5">
+    <a href="{% url 'product-add' %}" class="btn btn-primary">Add Product</a>
+    <div class="card-body">
+        <!--begin: Datatable-->
+        <div class="table-responsive">
+            <table class="table table-hover  product_record">
+                <thead class="thead-light">
+                    <th></th>
+                    <th>Name</th>
+                    <th>product_code</th>
+                    <th>price</th>
+                    <th>category</th>
+                    <th>manufacture_date</th>
+                    <th>expiry_date</th>
+                    <th>owner</th>
+                    <th>Actions</th>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <!--end: Datatable-->
+    </div>
+</div>
+
+
+<script>
+
+</script>
+{% endblock content %}

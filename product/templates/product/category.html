@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="card mt-5">
+    <a href="{% url 'category-add' %}" class="btn btn-primary">Add Category</a>
+    <div class="card-body">
+        <!--begin: Datatable-->
+        <div class="table-responsive">
+            <table class="table table-hover  Category_record">
+                <thead class="thead-light">
+                    <th></th>
+                    <th>Category</th>
+                    <th>Sub Category</th>
+                    <th>Actions</th>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <!--end: Datatable-->
+    </div>
+</div>
+
+
+<script>
+
+</script>
+{% endblock content %}
