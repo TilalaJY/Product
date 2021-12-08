@@ -7,6 +7,6 @@
  - run command (cd Product\product)
  - install dependancies (pip insatll -r requirements.txt)
  - run migrations (
-    python manage.py makemigrations
-    python manage.py migrate)
+     - python manage.py makemigrations
+     - python manage.py migrate)
  - run project (python manage.py runerver)
