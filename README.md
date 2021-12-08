@@ -1,6 +1,6 @@
 # Product
 
-# Run code
+# Run code steps
  - create virtual enviroment (python -m venv venv)
  - activate venv (.\venv\Scripts\activate)
  - clone the repo (git clone https://github.com/TilalaJY/Product.git)
